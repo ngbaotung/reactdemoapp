@@ -6,7 +6,7 @@ function App() {
   const fetchData = React.useCallback(() => {
     axios({
       "method": "GET",
-      "url": "https://quotes15.p.rapidapi.com/quotes/random/",
+      "url": "https://wq.tlip1.com:8081/chart/csv.php",
       "headers": {
         "content-type": "application/octet-stream",
         "x-rapidapi-host": "quotes15.p.rapidapi.com",
